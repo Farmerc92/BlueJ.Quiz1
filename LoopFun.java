@@ -51,7 +51,7 @@ public class LoopFun
           StringBuilder encrypt = new StringBuilder();
           for (int i = 0; i < word.length(); i++){
                char c = word.charAt(i);
-               if(c == 'x' || c == 'y' || c == 'z'){
+               if(c >= 'x'){
                    c -= 26;
                }
                c += 3;
